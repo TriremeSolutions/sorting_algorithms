@@ -10,7 +10,7 @@
  */
 void selection_sort(int *array, size_t size)
 {
-	int current;
+	int *current;
 	size_t i, j;
 	size_t k;
 
