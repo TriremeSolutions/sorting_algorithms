@@ -2,11 +2,9 @@
 
 /**
  * selection_sort - A function that takes
- * an array of integers
- * and arranges them in
- * ascending order
- * using the
- * selection sort algortihm
+ * an array of integers and
+ * arranges them in ascending order
+ * using the selection sort algortihm
  *
  * @array: the array
  * @size: array size
