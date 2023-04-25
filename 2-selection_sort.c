@@ -1,13 +1,14 @@
 #include "sort.h"
 
 /**
- * selection_sort - A function that takes
+ * selection_sort - function that takes
  * an array of integers and
  * arranges them in ascending order
  * using the selection sort algortihm
  *
- * @array: the array
- * @size: array size
+ * @array: the array of integers
+ * @size: the array size
+ *
  * Return: no return
  */
 void selection_sort(int *array, size_t size)
