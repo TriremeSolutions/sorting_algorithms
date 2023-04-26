@@ -45,9 +45,9 @@ void _sub_sort(int *arr, int min, int max, int size)
 		}
 		if (j != i && arr[j] != arr[i])
 		{
-			current = a[j];
-			a[j] = a[i];
-			a[i] = current;
+			current = arr[j];
+			arr[j] = arr[i];
+			arr[i] = current;
 			print_array(arr, size);
 		}
 		_sub_sort(arr, min, j - 1, size);
