@@ -22,7 +22,7 @@ void selection_sort(int *array, size_t size)
 		k = i;
 		for (j = i + 1; j < size; j++)
 		{
-			if (array(k) > array[j])
+			if (array[k] > array[j])
 				k = j;
 		}
 
