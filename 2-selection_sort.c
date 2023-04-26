@@ -14,8 +14,7 @@
 void selection_sort(int *array, size_t size)
 {
 	int current;
-	size_t i, j;
-	size_t k;
+	size_t i, j, k;
 
 	for (i = 0; i < size; i++)
 	{
@@ -30,7 +29,7 @@ void selection_sort(int *array, size_t size)
 		{
 			current = array[i];
 			array[i] = array[k];
-			array[k] = temp;
+			array[k] = current;
 			print_array(array, size);
 		}
 	}
