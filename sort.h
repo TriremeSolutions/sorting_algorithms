@@ -26,4 +26,5 @@ void quick_sort(int *array, size_t size);
 void _sub_sort(int *arr, int min, int max, int size);
 void shell_sort(int *array, size_t size);
 void _sh_sort(int *arr, int size, int n);
+void cocktail_sort_list(listint_t **list);
 #endif
